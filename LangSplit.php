@@ -21,7 +21,7 @@ function processLine($line) {
     return $output;
 }
 // Input and output file paths
-$inputFile = '/opt/sftpgroup/xxxxx/home/xxxxx/contactslanguage.txt';
+$inputFile = '/opt/sftpgroup/xxxxx/home/xxxxx/guardianlanguage.txt';
 $outputFile = 'data/language.csv';
 // Open input file for reading
 $inputHandle = fopen($inputFile, 'r');
